@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+   <head>
+		<script src="js/qrcode.min.js"></script>
+		<script src="js/webSocketHandler.js"></script>
+		<link href="css/style.css" rel=stylesheet type="text/css"></link>
+		<meta charset = "utf-8" />
+   </head>
+   <body>
+		<div id="name">test</div>
+		<div id="qrcode"></div>
+		<script type="text/javascript">
+			new QRCode(document.getElementById("qrcode"), {text: "http://192.168.2.2?id="+document.getElementById("name").innerHTML,
+															width: 120,
+															height: 120});
+		</script>
+		
+   </body>
+</html>

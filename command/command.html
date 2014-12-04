@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+   <script src="js/commandSocket.js"></script>
+   <script src="js/movementlisteners.js"></script>
+   <meta charset = "utf-8" />
+   <title>Commande 3D</title>
+  </head>
+  <body>
+  
+	<form name='connect'>
+		<label>Identifiant de la partie :</label>
+		<input name='id'></input>
+		<input type='button' onClick='command.sendName(document.forms["connect"].id.value)' value='Connexion'/>
+	</form>
+	
+	<div id="log"></div>
+   
+  </body>
+   <script src="js/initlinkWithComputer.js"></script>
+</html>
