@@ -1,4 +1,7 @@
-
+#bootstrap_taille{
+width : 500px;
+height : 500px;
+}
 
 #qrcode {
   width:120px;
