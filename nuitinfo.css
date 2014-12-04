@@ -12,10 +12,21 @@
 	margin-right:150px;
 	margin-left:150px;
 	}
-
+.cadre{
+    background-color:#fafbfc; 
+    border:1px solid #b0b0b0; 
+    margin:0 0 10px 10px; 
+    padding:5px; 
+	
+}
+.image_petit{
+	height:500px;
+	width:1000px;
+}
 	
 .marge50 {
 	margin-left:50px;
+	
 }
 
 .marge75{
