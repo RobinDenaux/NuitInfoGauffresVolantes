@@ -2,8 +2,18 @@
 	text-align: center;
 	}
 .titre {
+	text-align: center;
 	color: blue;
+ border-width:3px;
+ border-style:double;
+ border-color:red;
+ padding-top:10px;
+ padding-bottom:10px;
+ margin-right:150px;
+ margin-left:150px;
 	}
 
 	
-	
+.titre_contacts {
+
+}
