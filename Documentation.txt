@@ -1,0 +1,3 @@
+http://www.sante.gouv.fr/  Page principale du mnistere de la santé !
+http://www.sante.gouv.fr/alertes-sanitaires.html Alertes sanitaire
+http://ebola.sante.gouv.fr/ Page principale sur l'ebola
