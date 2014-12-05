@@ -3,3 +3,26 @@
 	background-repeat:no-repeat;
 	background-size:cover;
 }
+
+#footer {
+text-align: center;
+display: block;
+background-color:grey;
+border:0px ridge black;
+width:80%;
+margin-left:auto;
+margin-right:auto;
+height:50px;
+}
+
+.Rhenatic{
+float:left;
+margin-left:5px;
+margin-top:5px
+}
+
+.Technopole{
+float:right;
+margin-right:5px;
+margin-top:5px
+}

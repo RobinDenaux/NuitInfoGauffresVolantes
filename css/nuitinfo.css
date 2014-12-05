@@ -37,6 +37,7 @@
 .underline{
 	text-decoration:underline;
 }
+
 #footer {
 text-align: center;
 display: block;
@@ -56,6 +57,7 @@ background-image: url(../image/background.jpg);
 background: url(http://image.jeuxvideo.com/css_img/defaut/footer/footer_haut1.png) left top no-repeat;
 padding: 0;
 }
+
 .div_background{
 	background:Silver;
 	margin-left:auto;
