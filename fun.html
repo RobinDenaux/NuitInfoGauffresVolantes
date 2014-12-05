@@ -10,43 +10,53 @@
 
 			soundManager.url = 'swf/';
 			soundManager.debugMode = true;
-			var premier_son;
-			soundManager.onload = function() {
-				premier_son = soundManager.createSound(
-				{
-					id : "premier_son",
-					url : "musique/son.wav" // Attention pas de virgule ici !
-				});
+			var premier_son = null;
+
+			function playMusic(){
+				if(premier_son == null){
+					premier_son = soundManager.createSound(
+					{
+						id : "premier_son",
+						url : "musique/son.wav" // Attention pas de virgule ici !
+					});
+					premier_son.play();
+				}
 			}
 
 			function msg1()
 			{
-				msg1.innerHTML = '<img src=imgage/TVScreen_msg1.jpg>';
+				 document.getElementById("msg1").innerHTML = '<img src=image/TVScreen_msg1.jpg>';
 			}
 
 			function msg2()
 			{
-				msg2.innerHTML = '<img src=imgage/TVScreen_msg2.jpg>';
+				 document.getElementById("msg2").innerHTML = '<img src=image/TVScreen_msg2.jpg>';
 			}
 
 			function msg3()
 			{
-				msg3.innerHTML = '<img src=imgage/TVScreen_msg3.jpg>';
+				 document.getElementById("msg3").innerHTML = '<img src=image/TVScreen_msg3.jpg>';
 			}
 
 			function msg4()
 			{
-				msg4.innerHTML = '<img src=imgage/TVScreen_msg4.jpg>';
+				 document.getElementById("msg4").innerHTML = '<img src=image/TVScreen_msg4.jpg>';
 			}
 
 		</script>
 	</head>
 
 	<body class="bodyfun">
-		<button onclick="msg2(); premier_son.play();"><img src="image/garbage.png"></button>
-		<button onclick="msg3(); premier_son.play();"><img src="image/Scared_Soldier_Holding_Missle.png"></button>
-		<button onclick="msg1(); premier_son.play();"><img src="image/onucasquebleu.png"></button>
-		<button onclick="msg4(); premier_son.play();"><img src="image/soupe-de-legumes.png"></button>
+        <ul class="Bouton_ligne">
+			<li><a href="Page_accueil.html" class="myButton">Accueil</a></li>
+			<li><a href="information.html" class="myButton">Documentation</a></li>
+			<li><a href="contacts.html" class="myButton">Contact</a></li>
+			<li><a href="fun.html" class="myButton">Surprise</a></li>
+		</ul> 
+		<button onclick="msg2(); playMusic();"><img src="image/garbage.png"></button>
+		<button onclick="msg3(); playMusic();"><img src="image/Scared_Soldier_Holding_Missle.png"></button>
+		<button onclick="msg1(); playMusic();"><img src="image/onucasquebleu.png"></button>
+		<button onclick="msg4(); playMusic();"><img src="image/soupe-de-legumes.png"></button>
 		<pre id="msg1"> </pre>
 		<pre id="msg2"> </pre>
 		<pre id="msg3"> </pre>

@@ -3,7 +3,11 @@
 	background-repeat:no-repeat;
 	background-size:cover;
 }
-
+.boutton1{
+	background-color: rgba(169, 169, 169, 0.5);
+	padding-bottom : 10%;
+	padding-right : 20%;
+}
 #footer {
 text-align: center;
 display: block;
