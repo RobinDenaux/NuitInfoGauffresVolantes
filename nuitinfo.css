@@ -16,7 +16,8 @@
     background-color:#fafbfc; 
     border:1px solid #b0b0b0; 
     margin:0 0 10px 10px; 
-    padding:5px; 
+    padding:5px;
+	
 	
 }
 .image_petit{
@@ -35,4 +36,32 @@
 	
 .underline{
 	text-decoration:underline;
+}
+#footer {
+text-align: center;
+display: block;
+background-color:grey;
+border:3px ridge black;
+width:80%;
+margin-left:auto;
+margin-right:auto;
+height:50px;
+}
+
+body{
+background-image: url(image/background.jpg);
+}
+
+#liens_pied {
+background: url(http://image.jeuxvideo.com/css_img/defaut/footer/footer_haut1.png) left top no-repeat;
+padding: 0;
+}
+.div_background{
+	background:Silver;
+	margin-left:auto;
+	margin-right:auto;
+	width:80%;
+	border:1px solid;
+	
+
 }
