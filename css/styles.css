@@ -1,0 +1,211 @@
+.bodyfun {
+	background-image:url(../image/village.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+.boutton1{
+	background-color: rgba(169, 169, 169, 0.5);
+	padding-bottom : 10%;
+	padding-right : 20%;
+}
+
+.tableaux{
+margin-left:auto;
+margin-right:auto;
+}
+
+.myButton {
+	-moz-box-shadow: -3px 2px 0px 0px #1c1b18;
+	-webkit-box-shadow: -3px 2px 0px 0px #1c1b18;
+	box-shadow: -3px 2px 0px 0px #1c1b18;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #eae0c2), color-stop(1, #ccc2a6));
+	background:-moz-linear-gradient(top, #eae0c2 5%, #ccc2a6 100%);
+	background:-webkit-linear-gradient(top, #eae0c2 5%, #ccc2a6 100%);
+	background:-o-linear-gradient(top, #eae0c2 5%, #ccc2a6 100%);
+	background:-ms-linear-gradient(top, #eae0c2 5%, #ccc2a6 100%);
+	background:linear-gradient(to bottom, #eae0c2 5%, #ccc2a6 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#eae0c2', endColorstr='#ccc2a6',GradientType=0);
+	background-color:#eae0c2;
+	-moz-border-radius:13px;
+	-webkit-border-radius:13px;
+	border-radius:13px;
+	border:2px solid #333029;
+	
+	display:inline-block;
+	cursor:pointer;
+	color:#505739;
+	font-family:arial;
+	font-size:19px;
+	font-weight:bold;
+	padding:11px 16px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffffff;
+}
+
+.myButton:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ccc2a6), color-stop(1, #eae0c2));
+	background:-moz-linear-gradient(top, #ccc2a6 5%, #eae0c2 100%);
+	background:-webkit-linear-gradient(top, #ccc2a6 5%, #eae0c2 100%);
+	background:-o-linear-gradient(top, #ccc2a6 5%, #eae0c2 100%);
+	background:-ms-linear-gradient(top, #ccc2a6 5%, #eae0c2 100%);
+	background:linear-gradient(to bottom, #ccc2a6 5%, #eae0c2 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ccc2a6', endColorstr='#eae0c2',GradientType=0);
+	background-color:#ccc2a6;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+.Bouton_ligne li{
+display:inline;
+list-style-type: none;
+margin:20px;
+}
+
+.Bouton_ligne{
+text-align: center;
+}
+
+.image{
+text-align:center;
+}
+
+.bodyfun {
+	background-image:url(../image/village.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+.boutton1{
+	background-color: rgba(169, 169, 169, 0.5);
+	padding-bottom : 10%;
+	padding-right : 20%;
+}
+
+.tableaux{
+margin-left:auto;
+margin-right:auto;
+}
+
+.image{
+text-align:center;
+}
+
+.bootstrap_taille{
+width : 500px;
+height : 500px;
+}
+
+.qrcode {
+  width:120px;
+  height:120px;
+  margin-top:15px;
+}
+
+body{
+background-image:url(../image/background.jpg);
+}
+
+.item{
+text-align : center;
+}
+
+.titre_accueil{
+text-align : center;
+font-size : 400%;
+color : slateblue;
+}
+
+.header_boutons{
+height : 100px;
+font-size: 100%;
+font-family: Oswald,Helvetica,sans-serif;
+display: block;
+}
+
+.image_dimension{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.active{
+text-align : center;
+}
+
+.center{
+	text-align: center;
+}
+
+.titre {
+	text-align: center;
+	color: blue;
+	border-width:3px;
+	border-style:double;
+	border-color:red;
+	padding-top:10px;
+	padding-bottom:10px;
+	margin-right:150px;
+	margin-left:150px;
+}
+
+.cadre{
+    background-color:#fafbfc; 
+    border:1px solid #b0b0b0; 
+    margin:0 0 10px 10px; 
+    padding:5px;
+	
+	
+}
+.image_petit{
+	height:500px;
+	width:1000px;
+}
+	
+.marge50 {
+	margin-left:50px;
+	
+}
+
+.marge75{
+	margin-left:75px;
+	}
+	
+.underline{
+	text-decoration:underline;
+}
+
+#footer {
+text-align: center;
+display: block;
+background-color:grey;
+border:0px ridge black;
+width:80%;
+margin-left:auto;
+margin-right:auto;
+height:50px;
+}
+
+#liens_pied {
+background: url(http://image.jeuxvideo.com/css_img/defaut/footer/footer_haut1.png) left top no-repeat;
+padding: 0;
+}
+
+.div_background{
+	background:Silver;
+	margin-left:auto;
+	margin-right:auto;
+	width:80%;
+	border:1px solid;
+}
+
+.Rhenatic{
+float:left;
+margin-left:5px;
+margin-top:5px
+}
+
+.Technopole{
+float:right;
+margin-right:5px;
+margin-top:5px
+}
