@@ -1,0 +1,2 @@
+var question=prompt("Bonjour et bienvenue sur ce site humanitaire. Comment vous appelez-vous?");
+alert('Enchanté '+ question +'. Dans cette page vous trouverez quelques abérrations, j\'espère que cela ne gênera pas votre visite sur notre site :)');
