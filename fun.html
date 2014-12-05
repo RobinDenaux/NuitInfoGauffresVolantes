@@ -5,10 +5,52 @@
 		<title>Petits informations entre nous</title>
 		<meta charset="utf-8" />
 		<link rel="stylesheet" media="all" href="css/fun.css"/>
+		<script type="text/javascript" src="script/soundmanager2.js"></script>
+		<script type="text/javascript">
+
+			soundManager.url = 'swf/';
+			soundManager.debugMode = true;
+			var premier_son;
+			soundManager.onload = function() {
+				premier_son = soundManager.createSound(
+				{
+					id : "premier_son",
+					url : "musique/son.wav" // Attention pas de virgule ici !
+				});
+			}
+
+			function msg1()
+			{
+				msg1.innerHTML = '<img src=imgage/TVScreen_msg1.jpg>';
+			}
+
+			function msg2()
+			{
+				msg2.innerHTML = '<img src=imgage/TVScreen_msg2.jpg>';
+			}
+
+			function msg3()
+			{
+				msg3.innerHTML = '<img src=imgage/TVScreen_msg3.jpg>';
+			}
+
+			function msg4()
+			{
+				msg4.innerHTML = '<img src=imgage/TVScreen_msg4.jpg>';
+			}
+
+		</script>
 	</head>
 
 	<body class="bodyfun">
-		<img href=""
+		<button onclick="msg2(); premier_son.play();"><img src="image/garbage.png"></button>
+		<button onclick="msg3(); premier_son.play();"><img src="image/Scared_Soldier_Holding_Missle.png"></button>
+		<button onclick="msg1(); premier_son.play();"><img src="image/onucasquebleu.png"></button>
+		<button onclick="msg4(); premier_son.play();"><img src="image/soupe-de-legumes.png"></button>
+		<pre id="msg1"> </pre>
+		<pre id="msg2"> </pre>
+		<pre id="msg3"> </pre>
+		<pre id="msg4"> </pre>
 		
 	
 	
