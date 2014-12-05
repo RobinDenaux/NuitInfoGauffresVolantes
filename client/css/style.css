@@ -1,0 +1,80 @@
+.bootstrap_taille{
+width : 500px;
+height : 500px;
+}
+
+.qrcode {
+  width:120px;
+  height:120px;
+  margin-top:15px;
+}
+.myButton {
+	-moz-box-shadow: -3px 2px 0px 0px #1c1b18;
+	-webkit-box-shadow: -3px 2px 0px 0px #1c1b18;
+	box-shadow: -3px 2px 0px 0px #1c1b18;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #eae0c2), color-stop(1, #ccc2a6));
+	background:-moz-linear-gradient(top, #eae0c2 5%, #ccc2a6 100%);
+	background:-webkit-linear-gradient(top, #eae0c2 5%, #ccc2a6 100%);
+	background:-o-linear-gradient(top, #eae0c2 5%, #ccc2a6 100%);
+	background:-ms-linear-gradient(top, #eae0c2 5%, #ccc2a6 100%);
+	background:linear-gradient(to bottom, #eae0c2 5%, #ccc2a6 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#eae0c2', endColorstr='#ccc2a6',GradientType=0);
+	background-color:#eae0c2;
+	-moz-border-radius:13px;
+	-webkit-border-radius:13px;
+	border-radius:13px;
+	border:2px solid #333029;
+	display:inline-block;
+	cursor:pointer;
+	color:#505739;
+	font-family:arial;
+	font-size:19px;
+	font-weight:bold;
+	padding:11px 16px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffffff;
+}
+.myButton:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ccc2a6), color-stop(1, #eae0c2));
+	background:-moz-linear-gradient(top, #ccc2a6 5%, #eae0c2 100%);
+	background:-webkit-linear-gradient(top, #ccc2a6 5%, #eae0c2 100%);
+	background:-o-linear-gradient(top, #ccc2a6 5%, #eae0c2 100%);
+	background:-ms-linear-gradient(top, #ccc2a6 5%, #eae0c2 100%);
+	background:linear-gradient(to bottom, #ccc2a6 5%, #eae0c2 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ccc2a6', endColorstr='#eae0c2',GradientType=0);
+	background-color:#ccc2a6;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+
+
+.bouton_ligne{
+display: inline-block;
+}
+body{
+background-image:url(../../image/background.jpg);
+}
+.titre_accueil{
+text-align : center;
+font-size : 400%;
+color : slateblue;
+}
+
+.header_boutons{
+height : 100px;
+font-size: 100%;
+font-family: Oswald,Helvetica,sans-serif;
+display: block;
+}
+.image_dimension{
+  width:1000px;
+  height:1000px;
+  }
+  .marge_totale{
+  margin-left : 50px;
+  margin-right : 50px;
+  }
+ 
