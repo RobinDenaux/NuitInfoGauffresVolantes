@@ -8,6 +8,7 @@ height : 500px;
   height:120px;
   margin-top:15px;
 }
+
 .myButton {
 	-moz-box-shadow: -3px 2px 0px 0px #1c1b18;
 	-webkit-box-shadow: -3px 2px 0px 0px #1c1b18;
@@ -34,6 +35,7 @@ height : 500px;
 	text-decoration:none;
 	text-shadow:0px 1px 0px #ffffff;
 }
+
 .myButton:hover {
 	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ccc2a6), color-stop(1, #eae0c2));
 	background:-moz-linear-gradient(top, #ccc2a6 5%, #eae0c2 100%);
@@ -49,14 +51,14 @@ height : 500px;
 	top:1px;
 }
 
-
-
 .bouton_ligne{
 display: inline-block;
 }
+
 body{
-background-image:url(../../image/background.jpg);
+background-image:url(../image/background.jpg);
 }
+
 .titre_accueil{
 text-align : center;
 font-size : 400%;
@@ -69,11 +71,38 @@ font-size: 100%;
 font-family: Oswald,Helvetica,sans-serif;
 display: block;
 }
+
 .image_dimension{
-  width:1000px;
-  height:1000px;
-  }
-  .marge_totale{
+  width:500px;
+  height:500px;
+  margin-bottom:10px
+}
+
+/*.marge_totale{
   margin-left : 50px;
   margin-right : 50px;
-  }
+}*/
+  
+#footer {
+text-align: center;
+display: block;
+background-color:grey;
+border:0px ridge black;
+width:80%;
+margin-left:auto;
+margin-right:auto;
+margin-top:10px;
+height:50px;
+}
+
+.Rhenatic{
+float:left;
+margin-left:5px;
+margin-top:5px
+}
+
+.Technopole{
+float:right;
+margin-right:5px;
+margin-top:5px
+}
