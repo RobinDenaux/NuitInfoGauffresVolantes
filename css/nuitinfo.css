@@ -41,7 +41,7 @@
 text-align: center;
 display: block;
 background-color:grey;
-border:3px ridge black;
+border:0px ridge black;
 width:80%;
 margin-left:auto;
 margin-right:auto;
@@ -62,6 +62,16 @@ padding: 0;
 	margin-right:auto;
 	width:80%;
 	border:1px solid;
-	
+}
 
+.Rhenatic{
+float:left;
+margin-left:5px;
+margin-top:5px
+}
+
+.Technopole{
+float:right;
+margin-right:5px;
+margin-top:5px
 }
