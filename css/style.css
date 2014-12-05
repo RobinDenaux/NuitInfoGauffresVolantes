@@ -25,6 +25,7 @@ height : 500px;
 	-webkit-border-radius:13px;
 	border-radius:13px;
 	border:2px solid #333029;
+	
 	display:inline-block;
 	cursor:pointer;
 	color:#505739;
@@ -51,12 +52,23 @@ height : 500px;
 	top:1px;
 }
 
-.bouton_ligne{
-display: inline-block;
+.Bouton_ligne li{
+
+display:inline;
+list-style-type: none;
+}
+
+.Bouton_ligne{
+text-align: center;
 }
 
 body{
 background-image:url(../image/background.jpg);
+
+}
+
+.item{
+text-align : center;
 }
 
 .titre_accueil{
@@ -73,9 +85,10 @@ display: block;
 }
 
 .image_dimension{
-  width:500px;
-  height:500px;
-  margin-bottom:10px
+	
+	width:500px;
+	height:500px;
+	margin-bottom:10px
 }
 
 /*.marge_totale{
