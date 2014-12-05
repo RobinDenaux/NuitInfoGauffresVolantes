@@ -9,6 +9,12 @@
 	padding-right : 20%;
 }
 
+.tableaux{
+margin-left:auto;
+margin-right:auto;
+
+}
+
 .myButton {
 	-moz-box-shadow: -3px 2px 0px 0px #1c1b18;
 	-webkit-box-shadow: -3px 2px 0px 0px #1c1b18;
